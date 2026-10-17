@@ -1,643 +1,232 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Personal portfolio of Art Elvin B. Miranda, a 4th-year BSCS student and aspiring software developer.">
-  <title>Art Elvin B. Miranda | Portfolio</title>
+  <meta name="description" content="Portfolio of Art Elvin B. Miranda, a 4th-year BS Computer Science student building practical software, data, and AI projects.">
+  <title>Art Elvin B. Miranda | Curious by Nature. Building with Code.</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <a class="skip-link" href="#intro">Skip to main content</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
 
-  <div class="page-glow glow-one"></div>
-  <div class="page-glow glow-two"></div>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Back to top">
+        <span class="brand-dot" aria-hidden="true"></span>
+        AEBM
+      </a>
 
-  <header class="site-header">
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Toggle navigation"
+        aria-controls="primary-nav"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+      </button>
 
-
-<nav class="nav container" aria-label="Main navigation">
-
-  <a href="#home" class="logo" aria-label="Homepage">
-    AEBM<span>.</span>
-  </a>
-
-  <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
-    <span></span>
-    <span></span>
-  </button>
-
-  <div class="nav-links">
-    <a href="#home" class="active">Home</a>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-    <button class="theme-toggle" aria-label="Toggle light and dark theme">☼</button>
-  </div>
-
-</nav>
-
-
+      <nav class="site-nav" id="primary-nav" aria-label="Primary">
+        <a href="#intro">Intro</a>
+        <a href="#about">About</a>
+        <a href="#project">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-
-
-<!-- HERO -->
-<section class="hero container" id="home">
-
-  <div class="hero-copy reveal">
-
-    <p class="eyebrow">
-      <span class="status-dot"></span>
-      4th-Year Computer Science Student
-    </p>
-
-    <h1>
-      Hi, I'm <span>Art Elvin B. Miranda.</span>
-    </h1>
-
-    <h2>I build practical, useful digital experiences.</h2>
-
-    <p class="hero-description">
-      I'm a Computer Science student at Angeles University Foundation
-      interested in software development, web applications, artificial
-      intelligence, and building technology that solves practical problems.
-    </p>
-
-    <div class="hero-actions">
-
-      <a class="button primary" href="#projects">
-        View my work <span>↗</span>
-      </a>
-
-      <a class="button secondary" href="#contact">
-        Let's talk
-      </a>
-
-    </div>
-
-    <div class="social-row">
-
-      <a
-        href="https://github.com/artelvin-bm"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="GitHub"
-      >
-        GitHub
-      </a>
-
-      <a
-        href="https://www.linkedin.com/in/art-elvin-miranda"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="LinkedIn"
-      >
-        LinkedIn
-      </a>
-
-      <a href="mailto:artelvin.dev@gmail.com">
-        Email
-      </a>
-
-    </div>
-
-  </div>
-
-  <div class="hero-visual reveal">
-
-    <div class="profile-card">
-
-      <div class="profile-image">
-        <div class="avatar-placeholder">AEBM</div>
-      </div>
-
-      <div class="floating-chip chip-top">
-        ✦ Developer
-      </div>
-
-      <div class="floating-chip chip-bottom">
-        &lt;/&gt; Building ideas
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- ABOUT -->
-<section class="section container" id="about">
-
-  <div class="section-heading reveal">
-
-    <p class="section-number">01 / ABOUT</p>
-
-    <h2>A little about me.</h2>
-
-  </div>
-
-  <div class="about-grid">
-
-    <div class="about-copy reveal">
-
-      <p class="lead">
-        I'm a <strong>4th-year Bachelor of Science in Computer Science
-        student</strong> at Angeles University Foundation interested in
-        creating software that is practical, useful, and easy to use.
-      </p>
-
-      <p>
-        My experience comes mainly from academic and personal projects
-        involving web development, software development, mobile
-        applications, databases, and artificial intelligence.
-      </p>
-
-      <p>
-        I enjoy learning new technologies by building projects and
-        experimenting with different tools. I am particularly interested
-        in software development, AI applications, and creating solutions
-        that address real-world problems.
-      </p>
-
-    </div>
-
-    <div class="quick-facts reveal">
-
-      <div>
-        <span>Based in</span>
-        <strong>Pampanga, Philippines</strong>
-      </div>
-
-      <div>
-        <span>Education</span>
-        <strong>BS Computer Science</strong>
-      </div>
-
-      <div>
-        <span>University</span>
-        <strong>Angeles University Foundation</strong>
-      </div>
-
-      <div>
-        <span>Focus</span>
-        <strong>Software & AI Development</strong>
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- SKILLS -->
-<section class="section container" id="skills">
-
-  <div class="section-heading reveal">
-
-    <p class="section-number">02 / SKILLS</p>
-
-    <h2>Tools I work with.</h2>
-
-  </div>
-
-  <div class="skills-grid">
-
-    <article class="skill-card reveal">
-
-      <span class="skill-icon">&lt;/&gt;</span>
-
-      <h3>Web Development</h3>
-
-      <p>
-        HTML · CSS · JavaScript · PHP · Flask · Responsive UI
-      </p>
-
-    </article>
-
-
-    <article class="skill-card reveal">
-
-      <span class="skill-icon">{ }</span>
-
-      <h3>Programming</h3>
-
-      <p>
-        Python · Java · JavaScript · Dart · SQL · NASM
-      </p>
-
-    </article>
-
-
-    <article class="skill-card reveal">
-
-      <span class="skill-icon">⌘</span>
-
-      <h3>Tools & Platforms</h3>
-
-      <p>
-        Git · GitHub · VS Code · Figma · Flutter · Azure
-      </p>
-
-    </article>
-
-
-    <article class="skill-card reveal">
-
-      <span class="skill-icon">✦</span>
-
-      <h3>AI & Data</h3>
-
-      <p>
-        AI Applications · TensorFlow.js · Machine Learning
-      </p>
-
-    </article>
-
-  </div>
-
-</section>
-
-
-<!-- PROJECTS -->
-<section class="section container" id="projects">
-
-  <div class="section-heading projects-heading reveal">
-
-    <div>
-
-      <p class="section-number">03 / SELECTED WORK</p>
-
-      <h2>Things I've built.</h2>
-
-    </div>
-
-    <p>
-      A selection of academic and personal projects I've worked on.
-    </p>
-
-  </div>
-
-
-  <div class="projects-grid">
-
-
-    <!-- PROJECT 1 -->
-    <article class="project-card featured reveal">
-
-      <div class="project-preview preview-one">
-
-        <span class="preview-label">
-          FEATURED PROJECT
-        </span>
-
-        <div class="mock-window">
-
-          <div class="mock-bar">
-            <i></i>
-            <i></i>
-            <i></i>
+    <section class="hero section" id="intro">
+      <div class="hero-grid container">
+        <div class="hero-copy reveal">
+          <p class="hero-kicker">
+            <span class="status-indicator" aria-hidden="true"></span>
+            4th-year BS Computer Science student
+          </p>
+
+          <h1>
+            <span class="line">Art Elvin</span>
+            <span class="line">B. Miranda</span>
+          </h1>
+
+          <p class="hero-tagline">
+            Curious by nature.
+            <span>Building with code.</span>
+          </p>
+
+          <p class="hero-intro">
+            I’m based in Pampanga, Philippines, and currently studying at Angeles University Foundation.
+            I enjoy building practical software, experimenting with AI workflows, and using data to understand
+            real problems more clearly.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#project">See projects</a>
+            <a class="button button-ghost" href="#contact">Let’s connect</a>
           </div>
 
-          <div class="mock-layout">
+          <ul class="hero-links" aria-label="External links">
+            <li><a href="https://github.com/artelvin-bm" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/art-elvin-miranda" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          </ul>
+        </div>
 
-            <div class="mock-sidebar"></div>
+        <aside class="hero-panel reveal" aria-label="Quick profile">
+          <p class="panel-label">now compiling</p>
+          <p class="panel-line"><span>name</span>Art Elvin B. Miranda</p>
+          <p class="panel-line"><span>program</span>BS Computer Science</p>
+          <p class="panel-line"><span>school</span>Angeles University Foundation</p>
+          <p class="panel-line"><span>interests</span>Software · Data · AI · Web/Mobile</p>
+          <p class="panel-line"><span>location</span>Pampanga, Philippines</p>
+          <p class="panel-microcopy">Still learning fast. Still shipping with intention.</p>
+        </aside>
+      </div>
 
-            <div class="mock-content">
-              <div></div>
-              <div></div>
-              <div></div>
+      <div class="hero-orb" aria-hidden="true"></div>
+      <div class="hero-grid-overlay" aria-hidden="true"></div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container split">
+        <div class="section-intro reveal">
+          <p class="section-label">About</p>
+          <h2>I learn best by building and refining.</h2>
+        </div>
+
+        <div class="section-content reveal">
+          <p>
+            I like projects that push both technical thinking and product thinking.
+            In class and in personal work, I try to build things that are useful,
+            readable, and maintainable instead of simply feature-heavy.
+          </p>
+          <p>
+            My interests span software development, web and mobile app development,
+            machine learning concepts, and data analysis. I’m especially interested in
+            how these areas connect in practical tools people can actually use.
+          </p>
+          <p>
+            I’m not trying to present myself as an expert in everything. I’m a student,
+            and I care about getting better through deliberate practice, feedback, and iteration.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="project">
+      <div class="container split project-layout">
+        <div class="section-intro reveal">
+          <p class="section-label">Projects</p>
+          <h2>Academic and personal builds I’ve worked on.</h2>
+        </div>
+
+        <div class="project-collection reveal">
+          <article class="project-card" aria-label="Puchokoy project details">
+            <p class="project-lead">
+              <strong>Puchokoy</strong> is a personal Discord bot built with Python and discord.py,
+              designed for more natural conversation through context-aware AI responses.
+            </p>
+
+            <div class="project-notes">
+              <p>
+                It keeps conversation history so replies stay grounded in what was said earlier,
+                making interactions feel less robotic and more continuous.
+              </p>
             </div>
 
-          </div>
+            <p class="project-stack"><span>Stack:</span> Python, discord.py, AI integration</p>
+          </article>
 
+          <article class="project-mini" aria-label="Sentiment Analysis for Product Reviews">
+            <h3>Sentiment Analysis for Product Reviews</h3>
+            <p>
+              Web-based sentiment analysis system that classifies product reviews
+              using a lexicon-based approach.
+            </p>
+            <p class="project-stack"><span>Stack:</span> PHP, MySQL, JavaScript, AJAX, Bootstrap</p>
+          </article>
+
+          <article class="project-mini" aria-label="Rental Listing App">
+            <h3>Rental Listing App</h3>
+            <p>
+              Flutter mobile application for browsing rental listings with filtering,
+              favorites, persistent local storage, and light/dark mode support.
+            </p>
+            <p class="project-stack"><span>Stack:</span> Flutter, Dart, SharedPreferences</p>
+          </article>
+
+          <article class="project-mini" aria-label="UnliConnections">
+            <h3>UnliConnections</h3>
+            <p>
+              Web-based word association game inspired by Connections, built as
+              a programming project focused on interactive gameplay.
+            </p>
+            <p class="project-stack"><span>Stack:</span> Flask, Python, JavaScript</p>
+          </article>
+
+          <article class="project-mini" aria-label="Prime Number Toolkit">
+            <h3>Prime Number Toolkit</h3>
+            <p>
+              Command-line toolkit for checking, listing, factoring, counting, and
+              generating prime numbers with sieve-based methods.
+            </p>
+            <p class="project-stack"><span>Stack:</span> NASM, x86 Assembly, Linux</p>
+          </article>
         </div>
-
       </div>
+    </section>
 
-
-      <div class="project-info">
-
-        <p class="project-type">
-          WEB APPLICATION
-        </p>
-
-        <h3>
-          Sentiment Analysis for Product Reviews
-        </h3>
-
-        <p>
-          A web-based sentiment analysis system that classifies product
-          reviews using a lexicon-based approach. Developed with PHP,
-          MySQL, AJAX, and Bootstrap.
-        </p>
-
-        <div class="tags">
-          <span>PHP</span>
-          <span>MySQL</span>
-          <span>JavaScript</span>
-          <span>AJAX</span>
+    <section class="section" id="skills">
+      <div class="container split">
+        <div class="section-intro reveal">
+          <p class="section-label">Skills</p>
+          <h2>My current toolkit across software, data, and delivery.</h2>
         </div>
 
-        <div class="project-links">
-          <a href="#">Source Code ↗</a>
+        <div class="skills-grid reveal">
+          <article>
+            <h3>Software & Web Development</h3>
+            <p>Python, Java, JavaScript, HTML, CSS, PHP, Flask, responsive UI implementation</p>
+          </article>
+          <article>
+            <h3>Mobile, Data, and AI Interests</h3>
+            <p>Mobile app fundamentals, data analysis workflows, machine learning concepts, practical AI usage</p>
+          </article>
+          <article>
+            <h3>Databases & Workflow</h3>
+            <p>SQL, database modeling basics, Git, GitHub, VS Code, iterative development habits</p>
+          </article>
         </div>
-
       </div>
+    </section>
 
-    </article>
-
-
-    <!-- PROJECT 2 -->
-    <article class="project-card reveal">
-
-      <div class="project-preview preview-two">
-
-        <div class="phone-mock">
-
-          <div></div>
-
-          <p>RENTAL</p>
-
-          <span></span>
-          <span></span>
-
+    <section class="section" id="contact">
+      <div class="container split contact-layout">
+        <div class="section-intro reveal">
+          <p class="section-label">Contact</p>
+          <h2>If you have an idea worth building, I’d love to hear it.</h2>
         </div>
 
+        <div class="contact-box reveal">
+          <a href="https://github.com/artelvin-bm" target="_blank" rel="noopener noreferrer">github.com/artelvin-bm</a>
+          <a href="https://www.linkedin.com/in/art-elvin-miranda" target="_blank" rel="noopener noreferrer">linkedin.com/in/art-elvin-miranda</a>
+          <a href="mailto:artelvin.dev@gmail.com">artelvin.dev@gmail.com</a>
+          <p class="contact-note">Open to collaborations, student opportunities, and project conversations.</p>
+        </div>
       </div>
-
-
-      <div class="project-info">
-
-        <p class="project-type">
-          MOBILE APPLICATION
-        </p>
-
-        <h3>
-          Rental Listing App
-        </h3>
-
-        <p>
-          A Flutter mobile application for browsing rental listings with
-          price and location filtering, favorites, persistent local
-          storage, and light and dark mode support.
-        </p>
-
-        <div class="tags">
-          <span>Flutter</span>
-          <span>Dart</span>
-          <span>SharedPreferences</span>
-        </div>
-
-        <div class="project-links">
-          <a href="#">View Project ↗</a>
-        </div>
-
-      </div>
-
-    </article>
-
-
-    <!-- PROJECT 3 -->
-    <article class="project-card reveal">
-
-      <div class="project-preview preview-three">
-
-        <div class="terminal-mock">
-
-          <p>
-            <b>$</b> python bot.py
-          </p>
-
-          <p>
-            Connecting to Discord...
-          </p>
-
-          <p>
-            <span>✓</span> Puchokoy is online.
-          </p>
-
-          <i></i>
-
-        </div>
-
-      </div>
-
-
-      <div class="project-info">
-
-        <p class="project-type">
-          PERSONAL PROJECT
-        </p>
-
-        <h3>
-          Puchokoy
-        </h3>
-
-        <p>
-          A personal Discord bot project built around a conversational
-          child-like personality, message history, AI-generated responses,
-          and private server interactions.
-        </p>
-
-        <div class="tags">
-          <span>Python</span>
-          <span>Discord.py</span>
-          <span>AI</span>
-        </div>
-
-        <div class="project-links">
-          <a href="#">Source Code ↗</a>
-        </div>
-
-      </div>
-
-    </article>
-
-
-    <!-- PROJECT 4 -->
-    <article class="project-card reveal">
-
-      <div class="project-preview preview-one">
-
-        <span class="preview-label">
-          WEB PROJECT
-        </span>
-
-        <div class="mock-window">
-
-          <div class="mock-bar">
-            <i></i>
-            <i></i>
-            <i></i>
-          </div>
-
-          <div class="mock-layout">
-
-            <div class="mock-sidebar"></div>
-
-            <div class="mock-content">
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-
-      <div class="project-info">
-
-        <p class="project-type">
-          WEB APPLICATION
-        </p>
-
-        <h3>
-          UnliConnections
-        </h3>
-
-        <p>
-          A web-based word association game inspired by Connections,
-          developed as a programming project with an emphasis on
-          interactive gameplay.
-        </p>
-
-        <div class="tags">
-          <span>Flask</span>
-          <span>Python</span>
-          <span>JavaScript</span>
-        </div>
-
-        <div class="project-links">
-          <a href="#">View Project ↗</a>
-        </div>
-
-      </div>
-
-    </article>
-
-
-    <!-- PROJECT 5 -->
-    <article class="project-card reveal">
-
-      <div class="project-preview preview-three">
-
-        <div class="terminal-mock">
-
-          <p>
-            <b>$</b> ./prime-toolkit
-          </p>
-
-          <p>
-            Running sieve...
-          </p>
-
-          <p>
-            <span>✓</span> Prime numbers found.
-          </p>
-
-          <i></i>
-
-        </div>
-
-      </div>
-
-
-      <div class="project-info">
-
-        <p class="project-type">
-          SYSTEMS PROJECT
-        </p>
-
-        <h3>
-          Prime Number Toolkit
-        </h3>
-
-        <p>
-          A NASM x86 Linux command-line toolkit for checking, listing,
-          factoring, counting, and generating prime numbers using
-          multiple approaches.
-        </p>
-
-        <div class="tags">
-          <span>NASM</span>
-          <span>x86</span>
-          <span>Linux</span>
-        </div>
-
-        <div class="project-links">
-          <a href="#">Source Code ↗</a>
-        </div>
-
-      </div>
-
-    </article>
-
-  </div>
-
-</section>
-
-
-<!-- CONTACT -->
-<section class="section contact-section container" id="contact">
-
-  <div class="contact-card reveal">
-
-    <p class="section-number">
-      04 / CONTACT
-    </p>
-
-    <h2>
-      Have an idea?
-      <br>
-      <span>Let's build something.</span>
-    </h2>
-
-    <p>
-      I'm always interested in learning, collaborating, and working on
-      software projects. Feel free to reach out.
-    </p>
-
-    <a class="button primary" href="mailto:artelvin.dev@gmail.com">
-      artelvin.dev@gmail.com <span>↗</span>
-    </a>
-
-  </div>
-
-</section>
-
-
+    </section>
   </main>
 
-  <!-- FOOTER -->
-
-  <footer class="footer container">
-
-
-<p>
-  © <span id="year"></span>
-  Art Elvin B. Miranda.
-  Built with HTML, CSS & JavaScript.
-</p>
-
-<a href="#home">
-  Back to top ↑
-</a>
-
-
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Art Elvin B. Miranda</p>
+      <a href="https://artelvin-bm.github.io/aebm-portfolio/" target="_blank" rel="noopener noreferrer">Live portfolio</a>
+    </div>
   </footer>
 
   <script src="script.js"></script>
-
 </body>
-
 </html>
