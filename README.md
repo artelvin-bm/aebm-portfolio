@@ -21,6 +21,14 @@ The site is intentionally personal and playful while staying professional and ea
 - Contact
 - Minimal footer
 
+## Project Repositories
+
+- Puchokoy: https://github.com/artelvin-bm/puchokoy-public.git
+- Sentiment Analysis for Product Reviews: https://github.com/artelvin-bm/ccs06-final-project.git
+- Rental Listing App: https://github.com/artelvin-bm/cse20-final-requirement.git
+- UnliConnections: https://github.com/artelvin-bm/unli-connections.git
+- budgetWordle: https://github.com/artelvin-bm/budgetWordle.git
+
 ## Interaction Features
 
 - Scroll progress indicator

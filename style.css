@@ -500,6 +500,18 @@ h1 .line:last-child {
   color: var(--text);
 }
 
+.project-stack a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(184, 255, 52, 0.5);
+}
+
+.project-stack a:hover,
+.project-stack a:focus-visible {
+  color: var(--accent-soft);
+  border-bottom-color: var(--accent-soft);
+}
+
 .project-mini {
   border: 1px solid var(--line);
   border-radius: 12px;
