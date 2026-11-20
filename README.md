@@ -16,7 +16,7 @@ The site is intentionally personal and playful while staying professional and ea
 
 - Intro / Hero
 - About
-- Projects (Puchokoy, Sentiment Analysis for Product Reviews, Rental Listing App, UnliConnections, budgetWordle: https://github.com/artelvin-bm/budgetWordle)
+- Projects (Puchokoy, Sentiment Analysis for Product Reviews, Rental Listing App, UnliConnections, budgetWordle - Java Swing desktop Wordle game with 5-8 letter modes, random difficulty, and six tries: https://github.com/artelvin-bm/budgetWordle)
 - Skills
 - Contact
 - Minimal footer
