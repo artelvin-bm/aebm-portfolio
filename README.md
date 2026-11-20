@@ -16,7 +16,7 @@ The site is intentionally personal and playful while staying professional and ea
 
 - Intro / Hero
 - About
-- Projects (Puchokoy, Sentiment Analysis for Product Reviews, Rental Listing App, UnliConnections, Prime Number Toolkit)
+- Projects (Puchokoy, Sentiment Analysis for Product Reviews, Rental Listing App, UnliConnections, budgetWordle: https://github.com/artelvin-bm/budgetWordle)
 - Skills
 - Contact
 - Minimal footer
